@@ -1,0 +1,434 @@
+/*-----------------------------------------------------------------
+Dark theme  Style Stylesheet
+Template Name  : mory - Personal Portfolio HTML Template
+Author         : M.abozeid
+Version        : 1.0
+Primary Use    : Personal, Porfolio
+-----------------------------------------------------------------*/
+
+/*------ title -------*/
+
+p{
+    color: #9b9b9b;
+}
+.section-name h2::after{
+    background: #424242;
+    border: 6px double #424242;
+}
+
+/*------- start Navbar --------*/
+.fixed-top .navbar-nav .nav-item .nav-link {
+    color: #fff;
+  }
+.fixed-top .social-media-nav li .fab{
+    color: #fff;
+  }
+.fixed-top .navbar-nav .active>.nav-link,
+.fixed-top .navbar-nav .nav-link.active,
+.fixed-top .navbar-nav .nav-link.show,
+.fixed-top .navbar-nav .show>.nav-link
+{
+  color: #fff !important;
+}
+.fixed-top .navbar-nav .active>.nav-link:before,
+.fixed-top .navbar-nav .active>.nav-link::after,
+.fixed-top .navbar-nav .nav-link.active:before,
+.fixed-top .navbar-nav .active>.nav-link::after,
+.fixed-top .navbar-nav .nav-link.show:before,
+.fixed-top .navbar-nav .nav-link.show:after,
+.fixed-top .navbar-nav .show>.nav-link:before,
+.fixed-top .navbar-nav .show>.nav-link:after  {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+      transform: scaleX(1);
+  opacity: 1;
+  background-color: #fff !important;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #0069ff;
+  background-color: transparent;
+}
+.scroll.navbar-nav .active>.nav-link,
+.scroll .navbar-nav .nav-link.active,
+.scroll .navbar-nav .nav-link.show,
+.scroll .navbar-nav .show>.nav-link
+{
+  color: #0069ff !important;
+  background-color: transparent;
+  
+}
+.scroll{
+    background-color: #2f2f31;
+    border-bottom: 1px solid #343436;
+}
+.dark.navbar-nav .nav-item .nav-link{
+    color: #fff;
+}
+.fixed-top.social-media-nav li .fab {
+    color: #fff;
+}
+.scroll .navbar-nav .nav-item .nav-link {
+    color: #0069ff;
+}
+.scroll .social-media-nav li .fab {
+    color: #0069ff;
+}
+
+.fixed-top .navbar-brand{
+    color: #fff !important;
+}
+
+/*-------- end Navbar --------*/
+
+/*------- start header --------*/
+.header{
+    background: url("../images/header/dark-header.jpg") center center
+    no-repeat fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 222;
+  }
+.defin {
+color: #fff;
+}
+
+.myname{
+color: #fff;
+}
+.info-banner p {
+    color: #fff;
+}
+.header .myname::before{
+    border: 6px double #0069ff;
+    background-color: #0069ff;
+}
+/*------- end header --------*/
+
+/*--------start about --------*/
+.about{
+    background-color: #2f2f31;
+}
+.about-popup {
+    background-color: #424242;
+    border: 5px solid #2f2f31;
+}
+.personal-spec {
+    color: #fff;
+}
+.personal-info {
+    color: #fff;
+}
+.about-info .personal-item .about-icons{
+    background-color: #343436;
+}
+.box-img {
+    z-index: 23;
+    border: 10px solid #0069ff;
+}
+
+.box-img::after {
+    background: #0069ff;
+    border: 10px solid #0069ff;
+}
+.about-img::before{
+    border: 10px solid #424242;
+}
+.box-img::before {
+    color: #deebff;
+}
+.box-img::before {
+    background: #0069ff;
+    border: 24px solid #0069ff;
+    border-bottom: 10px solid #0069ff;
+}
+
+/*--------end about --------*/
+
+/*--------start  statistics --------*/
+.overlay-statistics{
+    background-color: #2F2F31;
+}
+.stats-box{
+    background: url(../images/skills/612.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+.stats-box .overlay-stats {
+    background: rgba(33, 33, 33, 0.65);
+  }
+/*--------end statistics --------*/
+
+/*--------start skills --------*/
+.skills {
+    background-color: #343436;
+}
+.skills .skill-title{
+color: #fff;
+}
+ 
+.mh-progress .progressbar-text{
+    color: #fff !important;
+}
+.pr-skills-name, .skills h3,
+.skills-bar .skills .skill-title,
+.skills-bar .skills .gragh .percent {
+    color: #fff;
+}
+/*--------end skills --------*/
+
+/*--------start resume --------*/
+.resume {
+    background-color: #2f2f31;
+}
+.resume-series::before {
+border: 4px double #424242;
+}
+.resume-line{
+    border: 3px solid #424242;
+}
+.message-item .message-inner {
+    background-color: #343436;
+    border: 2px solid #343436;
+}
+.message-head h4 {
+    color: #fff;
+}
+.message-head .resume-icon {
+    background-color: #2f2f31;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+.message-item:before {
+    border: 4px double #2f2f31;
+}
+.message-item .message-inner:before {
+     border: 1px solid #343436;
+    background: #343436;
+}
+.mh-progress path:nth-child(1) {
+    stroke: #424242;
+}
+/*--------end resume --------*/
+
+/*====== start Pre-loader ======*/
+
+.overlay-loading{
+  background-color: #343436;
+}
+/*--------end resume --------*/
+
+/*--------start  service --------*/
+.our-Service{
+    background-color: #343436;
+}
+.services-item{
+background-color: #2f2f31;
+border-color: #2f2f31;
+}
+.services-item:hover{
+    border: 1px solid #424242;
+}
+.services-item h4 {
+    color: #fff;
+}
+.icon-services{
+color: #fff;
+}
+/*--------end service --------*/
+
+/*-------- start portfolio --------*/
+.Our-Portfolio{
+    background-color: #2f2f31;
+}
+.featured-work li {
+ color: #fff;
+}
+.featured-work li.active {
+    background-color: #343436;
+}
+.imghvr-shutter-out-vert .img-caption{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.imghvr-shutter-out-vert .img-caption span{
+    color: #fff;
+}
+/*-------- end portfolio --------*/
+
+/*-------- start clients --------*/
+.our-clients{
+    background-color: #343436;
+}
+.single-testimonial{
+background-color: #2f2f31;
+border: 1px solid rgba(255,255,255,0.1);
+-webkit-box-shadow: none;
+        box-shadow: none;
+}
+.img-area{
+    border: 5px solid #343436;
+    background: #343436;
+}
+
+.test-info h4{
+    color: #fff;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel 
+.owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background-color: #2f2f31;
+    color: #fff;
+}
+/*-------- end clients --------*/
+
+/*-------- start blogs --------*/
+.slider-height2 {
+    background-image: url(../images/single-blog/nordwood-themes-bJjsKbToY34-unsplash.jpg);
+    background-position: 50%;
+}
+.our-blogs{
+    background-color: #2f2f31;
+}
+.blog-info{
+    background-color: #343436;
+    border: 1px solid #424242;
+}
+.blog-info .title-post a h5{
+    color: #fff;
+}
+.single-post-area .blog-author{
+    background-color: #343436;
+}
+/*-------- end blogs --------*/
+
+/* ---start Single blog----- */
+.blog_area {
+    background-color: #2f2f31;
+}
+main{
+    background-color: #2F2F31;
+}
+.comment-form .form-control{
+    background: #343436;
+    border: 1px solid #424242;
+}
+.comments-area {
+    background: #343436;
+}
+.single-post{
+    background-color: #343436;
+    border: 1px solid #424242;
+}
+.comments-area {
+    border-top: 1px solid #424242;
+}
+.single-post-area .navigation-area{
+  border-bottom: 1px solid #424242;
+}
+.single-post-area .blog-author {
+    background-color: #343436;
+}
+.comment-form {
+    border-top: 1px solid #424242;
+}
+.single-post-area .navigation-top {
+    border-top: 1px solid #424242;
+    background-color: #343436;
+}
+
+.blog_right_sidebar .single_sidebar_widget {
+    background-color: #343436;
+    Border: 1px solid #424242;
+}
+.blog_right_sidebar .widget_title{
+    color: #fff;
+}
+.blog_right_sidebar .widget_title::after{
+border-bottom: 1px solid #424242;
+}
+.blog_right_sidebar input[type="text"],
+.blog_right_sidebar input[type="email"]{
+    background-color: #2f2f31;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.blog_area p {
+    color: #9b9b9b;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+}
+.single-post-area .quotes {
+    background-color: #2f2f31;
+}
+.blog_right_sidebar .tag_cloud_widget ul li a {
+    background-color: #343436;
+}
+/* -----end single blog---;- */
+/*-------- start contact  --------*/
+
+.overlay-contact{
+background: rgba(0, 0, 0, 0.8);
+}
+.single-contact{
+background-color: #343436;
+border:3px solid #2f2f31;
+}
+.contact-detail{
+border-left: 3px double #424242
+}
+.contact-detail h5 {
+    color: #fff;
+    
+}
+.single-contact .fa-phone, .single-contact .fa-map-marked-alt, .single-contact .fa-envelope{
+    color: #ffffff;
+    background-color: #0069ff;
+}
+
+.single-contact .contact-detail .number-big{
+    color: #424242;
+    background-color: #2f2f31;
+    border: 1px solid #424242;
+}
+
+input[type="text"], input[type="email"], input[type="url"], input[type="tel"], input[type="search"], input[type="password"], input[type="subject"], textarea {
+    background: #343436;
+    border: 3px solid #2f2f31;
+    color: #fff;
+}
+.blog_right_sidebar .search_widget .form-control,
+.blog_right_sidebar .newsletter_widget .form-control {
+    border-color: #424242;
+}
+.blog_right_sidebar .tag_cloud_widget ul li a{
+    border: 2px solid #424242;
+}
+.blog_right_sidebar .post_category_widget .cat-list li {
+    border-bottom: 1px solid #424242;
+}
+/*-------- end contact --------*/
+.ourpartners{
+    background-color: #343436;
+    border: 1px solid #2f2f31;
+}
+
+/*====== strat footer =========*/
+footer{
+    background-color: #343436;
+    border-top: 1px solid #2f2f31;
+}
+footer li{
+    background-color: #2f2f31;
+    
+}
+footer a {
+ color: #0069ff;
+ 
+}
+footer .copyright{
+    color: #fff;
+}
+/*====== end footer ==========*/

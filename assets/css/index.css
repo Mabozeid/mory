@@ -1,0 +1,206 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*-----------------------------------------------------------------
+index Style Stylesheet
+Template Name  : mory - Personal Portfolio HTML Template
+Author         : M.abozeid
+Version        : 1.0
+Primary Use    : Personal, Porfolio
+-----------------------------------------------------------------*/
+
+a, a:hover, a:focus, a:active, button:focus {
+  text-decoration: none;
+  border: none;
+  outline: 0;
+  color: #FFF;
+}
+ul,
+ol,
+li{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+.header{
+  background: #f9f9f9;
+  height: 300px;
+  text-align: center;
+  color: #444;
+}
+
+.btn-effect1 {
+  cursor: pointer;
+  background: #0069ff;
+  border: 2px solid #0069ff;
+  display: inline-block;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  z-index: 2;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0;
+  line-height: 44px;
+  min-width: 170px;
+  height: 46px;
+  letter-spacing: 2px;
+  margin-right: 15px;
+  border-radius: 3px;
+  margin-left: 25px
+}
+
+.btn-effect1:hover{
+  background: #444 ;
+  border: 2px solid #444 ;
+  color: #0069ff;
+  -webkit-transition: 0.4s all ease-in-out;
+  -o-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.banner-header{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 300px;
+}
+.banner-header .info-banner h2{
+  color: #444;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-family: 'Raleway', sans-serif;
+}
+.banner-header .info-banner p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-weight: 600;
+  line-height: 50px;
+  color: #444;
+  font-size: 22px;
+}
+
+.demos {
+  padding: 100px 0 50px 0;
+  background: #FFF;
+  text-align: center;
+  -webkit-perspective: 100px;
+          perspective: 100px;
+
+}
+.demos h2 {
+  color: #444;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  letter-spacing: 1px;
+  
+}
+
+.footer-content {
+  padding: 15px 0;
+  background: #f9f9f9;
+}
+
+.product {
+  border: 1px solid #f3f2f2;
+  margin-bottom: 50px;
+  overflow: hidden;
+  padding: 7px;
+  background: #f9f9f9;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+.product:hover {
+  -webkit-box-shadow: 5px 5px 40px -10px rgba(45, 44, 44, 0.57);
+          box-shadow: 5px 5px 40px -10px rgba(45, 44, 44, 0.57);
+  -webkit-transform: translate3d(-10px,-10px,7px);
+          transform: translate3d(-10px,-10px,7px);
+}
+
+.title {
+  color: #444;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.product:hover .title {
+  color: #0069ff;
+}
+
+footer {
+  background: #f9f9f9;
+  border-top: 1px solid #EEE;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer h1 {
+  z-index: 999;
+  font-size: 30px;
+  color: #0069ff !important;
+  text-transform: uppercase;
+  font-weight: 600;
+  position: relative;
+  text-align: center;
+  padding-bottom: 15px ;
+}
+
+footer li  {
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  border-radius: 50%;
+  border: 1px double rgba(224, 224, 224, 0.5);
+  display: inline-block;
+}
+
+footer .copyright {
+  font-weight: 600;
+  font-size: 14px;
+  color: #444;
+  letter-spacing: 1.7px;
+  line-height: 28px;
+  padding-top: 20px;
+}
+footer  a {
+  color: #444;
+}
+footer li:hover {
+  background: #0069ff;
+  -webkit-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+footer li:hover a{
+  color: #FFF;
+}
+footer .copyright a:hover {
+color: #0069ff;
+}

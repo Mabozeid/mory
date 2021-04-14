@@ -1,0 +1,496 @@
+/*-----------------------------------------------------------------
+Responsive  Style Stylesheet
+Template Name  : mory - Personal Portfolio HTML Template
+Author         : M.abozeid
+Version        : 1.0
+Primary Use    : Personal, Porfolio
+-----------------------------------------------------------------*/
+
+@media (max-width: 575.98px)  {
+
+  .navbar-light {
+    background: #FFF;
+}
+/*--------- dark theme ------*/
+.dark.navbar-light {
+  background: #2f2f31 ;
+  border-bottom: 1px solid #2f2f31;
+}
+.dark.navbar-light .navbar-collapse {
+  background: #2f2f31;
+}
+.dark.navbar-light .social-media-nav li .fab{
+  color: #fff;
+}
+.dark.navbar-light .navbar-nav .nav-item .nav-link{
+  color: #FFF;
+}
+/*--------- end dark theme ------*/
+  .fixed-top .navbar-brand {
+    color: #0069ff !important;
+  }
+  .fixed-top .navbar-brand {
+    color: #0069ff !important;
+}
+.fixed-top .navbar-brand .brand-bg {
+    background: #0069ff;
+}
+
+.navbar-light .navbar-toggler-icon,
+.navbar-light .navbar-toggler-icon.active ,
+.nav-fixed .navbar-toggler-icon,
+.nav-fixed .navbar-toggler-icon.active {
+    
+    background: #0069ff !important;
+}
+.fixed-top .navbar-nav .active>.nav-link,
+.fixed-top  .navbar-nav .nav-link.active,
+.fixed-top .navbar-nav .nav-link.show,
+.fixed-top  .navbar-nav .show>.nav-link
+{
+    color: #0069ff !important;
+}
+
+.fixed-top  .navbar-nav .active>.nav-link:before,
+.fixed-top  .navbar-nav .nav-link.active:before,
+.fixed-top  .navbar-nav .nav-link.show:before,
+.fixed-top  .navbar-nav .show>.nav-link:before {
+    opacity: 0;  
+}
+.scroll .navbar-nav .active>.nav-link:before,
+.scroll .navbar-nav .nav-link.active:before,
+.scroll .navbar-nav .nav-link.show:before,
+.scroll .navbar-nav .show>.nav-link:before {
+    opacity: 0;
+}
+
+.scroll .navbar-nav .active>.nav-link::after,
+.scroll .navbar-nav .nav-link.active:after,
+.scroll .navbar-nav .nav-link.show:after,
+.scroll .navbar-nav .show>.nav-link:after {
+    opacity: 0;
+}
+
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #444;
+  margin: 0;  
+  padding: 0 0 20px  0;
+} 
+
+.navbar-light  .social-media-nav li {
+  padding: 20px 10px 20px  0;
+}
+.navbar-light  .social-media-nav li .fab{
+  color: #444;
+}
+    .myname{
+      font-size: 50px;
+      margin: 20px 0 10px;
+    }
+
+.header p,
+.header-sketch p {
+  max-width: 350px;
+}
+
+.header{
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.dark-header{
+  background: url("../images/header/dark-header.jpg") center center
+  no-repeat fixed;
+  background-attachment: fixed;
+  background-size: cover;
+}
+ripple-header{
+  background: url("../images/header/water-ripple.jpg") center center
+  no-repeat fixed;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.banner-skills{
+  padding-left: 10px;
+  margin-bottom: 30px
+}
+.banner-skills li:first-of-type::before {
+  padding: 0;
+}
+.banner-skills li::before{
+padding: 0 5px 0 5px;
+}
+  .statistics .stats-box{
+    padding: 10px;
+    margin-bottom: 20px;
+    
+  }
+
+  .about-img{
+    margin-right: 0;
+    margin-left: 0;
+    border: none;
+    margin-bottom: 20px;
+  }
+  .about-img img{
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+  .about-info{
+    margin: auto;
+  }
+  .box-img{
+    padding: 0;
+  }
+  .about-popup{
+    display: none;
+  }
+  .about-img::before,
+  .about-img::after{
+    display: none;
+  }
+  .about-paragragh {
+    margin-top: 10px;
+  }
+.mh-professinal-progress {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.mh-professinal-skills {
+  margin-top: 70px;
+}
+.message-item{
+  margin:0 0 30px ;
+}
+  .single-testimonial{
+    width: 90%;
+  }
+  
+  .img-area {
+    margin-bottom: 10px
+  }
+  .single-testimonial p{
+    padding: 0;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .scroll-top{
+    font-size: 10px;
+    bottom: 10px;
+    right: 7px;
+  }
+  .resume-series::before{
+    left: -10px;
+  }
+
+  .message-item .message-inner{
+    margin-bottom: 30px;
+  }
+        .resume-series::before{
+        left: -5px;
+      }
+  .blog-item{
+    padding-bottom: 30px;
+  }
+  .pagination{
+    margin: 0 0 50px;
+  }
+
+  .pagination .pageNumber{
+    width: 25px;
+    height: 25px;
+  }
+  .pagination li:first-child{
+    margin-right: 5px;
+  }
+  .pagination li:last-child {
+    margin-left: 5px;
+  }
+  .statistics .stats-box{
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .single-contact{
+    margin-bottom: 30px;
+  }
+  .form-item + .button-effect{
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  footer li{
+    margin-right: 3px;
+    margin-left: 3px;
+  }
+
+    }
+
+    
+    @media (min-width: 576px) and (max-width: 767.98px) {
+
+      .navbar-light {
+        background: #FFF;
+    }
+    /*--------- dark theme ------*/
+.dark.navbar-light {
+  background: #2f2f31 ;
+  border-bottom: 1px solid #2f2f31;
+}
+.dark.navbar-light .navbar-collapse {
+  background: #2f2f31;
+}
+.dark.navbar-light .social-media-nav li .fab{
+  color: #fff;
+}
+.dark.navbar-light .navbar-nav .nav-item .nav-link{
+  color: #FFF;
+}
+/*--------- end dark theme ------*/
+
+      .fixed-top .navbar-brand {
+        color: #0069ff !important;
+      }
+      .fixed-top .navbar-brand {
+        color: #0069ff !important;
+    }
+    .fixed-top .navbar-brand .brand-bg {
+        background: #0069ff;
+    }
+
+    .navbar-light .navbar-toggler-icon,
+    .navbar-light .navbar-toggler-icon.active ,
+    .nav-fixed .navbar-toggler-icon,
+    .nav-fixed .navbar-toggler-icon.active {
+        
+        background: #0069ff !important;
+    }
+    .fixed-top .navbar-nav .active>.nav-link,
+    .fixed-top  .navbar-nav .nav-link.active,
+    .fixed-top .navbar-nav .nav-link.show,
+    .fixed-top  .navbar-nav .show>.nav-link
+    {
+        color: #0069ff !important;
+    }
+    
+    .fixed-top  .navbar-nav .active>.nav-link:before,
+    .fixed-top  .navbar-nav .nav-link.active:before,
+    .fixed-top  .navbar-nav .nav-link.show:before,
+    .fixed-top  .navbar-nav .show>.nav-link:before {
+        opacity: 0;  
+    }
+    .scroll .navbar-nav .active>.nav-link:before,
+    .scroll .navbar-nav .nav-link.active:before,
+    .scroll .navbar-nav .nav-link.show:before,
+    .scroll .navbar-nav .show>.nav-link:before {
+        opacity: 0;
+    }
+    
+    .scroll .navbar-nav .active>.nav-link::after,
+    .scroll .navbar-nav .nav-link.active:after,
+    .scroll .navbar-nav .nav-link.show:after,
+    .scroll .navbar-nav .show>.nav-link:after {
+        opacity: 0;
+    }
+    
+    
+    .navbar-light .navbar-nav .nav-item .nav-link {
+      color: #444;
+      margin: 0;  
+      padding: 0 0 20px  0;
+    } 
+    .navbar-light  .social-media-nav li {
+      padding: 20px 10px 20px  0;
+    }
+    .navbar-light  .social-media-nav li .fab{
+      color: #444;
+    }
+      .myname{
+        font-size: 60px;
+      }
+      
+      .about-img {
+        margin: 0 0 50px 50px;
+      }
+      
+      .mh-professinal-progress {
+        position: relative;
+        padding-top: 30px;
+      }
+      .mh-professinal-skills {
+        margin-top: 85px;
+      }
+      .resume-series::before{
+        left: -5px;
+      }
+
+      .message-item .message-inner{
+        padding: 20px;
+        width: auto;
+        margin:0 0 30px ;
+      }
+
+      .pagination{
+        margin: 0 0 50px;
+      }
+      .blog-item{
+        padding-bottom: 30px;
+      }
+      
+      .statistics .stats-box{
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+      .single-contact{
+        margin-bottom: 30px;
+      }
+
+      .form-item.button-effect{
+        margin-bottom: 20px;
+      }
+      .form-item + .button-effect {
+        margin-bottom: 20px;
+        width: 100%;
+       }
+
+    }
+    
+    @media (min-width: 768px) and (max-width: 991.98px) {
+
+      .navbar-light {
+        background: #FFF;
+    }
+        /*--------- dark theme ------*/
+    .dark.navbar-light {
+      background: #2f2f31 ;
+      border-bottom: 1px solid #2f2f31;
+    }
+    .dark.navbar-light .navbar-collapse {
+      background: #2f2f31;
+    }
+    .dark.navbar-light .social-media-nav li .fab{
+      color: #fff;
+    }
+    .dark.navbar-light .navbar-nav .nav-item .nav-link{
+      color: #FFF;
+    }
+    /*--------- end dark theme ------*/
+    .navbar-light  .social-media-nav li .fab{
+      color: #444;
+    }
+      .fixed-top .navbar-brand {
+        color: #0069ff !important;
+      }
+      .fixed-top .navbar-brand {
+        color: #0069ff !important;
+    }
+    .fixed-top .navbar-brand .brand-bg {
+        background: #0069ff;
+    }
+    .navbar-light .navbar-toggler-icon,
+    .navbar-light .navbar-toggler-icon.active ,
+    .nav-fixed .navbar-toggler-icon,
+    .nav-fixed .navbar-toggler-icon.active {
+        
+        background: #0069ff !important;
+    }
+    .fixed-top .navbar-nav .active>.nav-link,
+    .fixed-top  .navbar-nav .nav-link.active,
+    .fixed-top .navbar-nav .nav-link.show,
+    .fixed-top  .navbar-nav .show>.nav-link
+    {
+        color: #0069ff !important;
+    }
+    
+    .fixed-top  .navbar-nav .active>.nav-link:before,
+    .fixed-top  .navbar-nav .nav-link.active:before,
+    .fixed-top  .navbar-nav .nav-link.show:before,
+    .fixed-top  .navbar-nav .show>.nav-link:before {
+        opacity: 0;  
+    }
+    .scroll .navbar-nav .active>.nav-link:before,
+    .scroll .navbar-nav .nav-link.active:before,
+    .scroll .navbar-nav .nav-link.show:before,
+    .scroll .navbar-nav .show>.nav-link:before {
+        opacity: 0;
+    }
+    
+    .scroll .navbar-nav .active>.nav-link::after,
+    .scroll .navbar-nav .nav-link.active:after,
+    .scroll .navbar-nav .nav-link.show:after,
+    .scroll .navbar-nav .show>.nav-link:after {
+        opacity: 0;
+    }
+ 
+    .navbar-light .navbar-nav .nav-item .nav-link {
+      color: #444;
+      margin: 0;  
+      padding: 0 0 20px  0;
+    } 
+    .navbar-light  .social-media-nav li {
+      padding: 20px 10px 20px  0;
+    }
+
+      .myname{
+        font-size: 65px;
+      }
+      .about-img {
+        margin: 0 0 50px 50px;
+      }
+      .resume-series::before{
+        left: -5px;
+      }
+      .message-item .message-inner{
+        margin:0 0 30px ;
+      }
+      .blog-item{
+        padding-bottom: 30px;
+      }
+      .pagination{
+        margin: 0 0 50px;
+      }
+
+      .single-contact {
+        margin-bottom: 30px;
+    }
+      .single-testimonial{
+        width: 90%;
+      }
+
+      .statistics .stats-box{
+        margin-bottom: 20px;
+      }
+    }
+    
+    @media (min-width: 992px) and (max-width: 1199.98px) { 
+      .myname{
+        font-size: 75px;
+      }
+      .about-info{
+        margin: auto;
+      }
+      .about-img {
+        margin-right: 40px;
+      }
+      .about-info .about-title h3{
+        font-size: 25px;
+        line-height: 1;
+        padding: 7px 0 10px;
+      }
+      .about-paragragh{
+        margin: 0;
+      }
+      .about-info hr {
+        margin: 10px auto;
+      }
+      .about-info .button-effect, .signature{
+        margin-top: 0 !important;
+      }
+      .statistics .stats-box{
+        margin-bottom: 20px;
+      }
+    }
